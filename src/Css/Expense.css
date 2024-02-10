@@ -1,0 +1,102 @@
+.Expense {
+    display: flex;
+    flex-direction: column;
+}
+
+.Expense .grid-xs input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(15, 2, 2, 0.2);
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    padding: 20px 45px 20px 20px;
+}
+
+/* First wrapper at the top right */
+.form-wrapper1 {
+    width: 420px;
+    height: 420px; /* Set the height explicitly */
+    background-color: rgba(221, 221, 255, 0.4);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding:65px 40px;
+    margin: 80px 40px; 
+    top: 50%;
+    transform: translateY(-0%);
+    margin-top: 140px;
+}
+
+/* Second wrapper at the center */
+.form-wrapper2 {
+    position: absolute;
+    top: 58.2%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+    height: 420px; /* Set the height explicitly */
+    background-color: rgba(221, 221, 255, 0.4);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 60px 70px;
+}
+
+.form-wrapper1 button,
+.form-wrapper2 button {
+    background-color: rgb(188, 99, 230);
+    color :white;
+    border: none;
+    border-radius: 20px;
+    padding: 18px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; /* Adjust margin as needed */
+    transition: all 0.2 ease-in;
+}
+
+.form-wrapper1 button:hover{
+    color: black;
+}
+
+.form-wrapper2 button:hover{
+    color: black;
+}
+
+.existing-budget {
+    position: absolute;
+    top: 190px; 
+    right: 120px;
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  .transparent-blur-wrapper {
+    position: absolute;
+    top: 280px; 
+    right: 50px;
+    width: 420px;
+    background: rgba(11, 3, 160, 0.137);
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter: blur(10px);
+  }
+  
+  .budget-item {
+    margin-bottom: 20px;
+  }
+  
+  .slide-bar {
+    width: 100%;
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+  }
+
+  @media (max-width:1100px){
+
+  }

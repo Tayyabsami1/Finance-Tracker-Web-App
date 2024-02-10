@@ -1,0 +1,93 @@
+.income-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(221, 221, 255, 0.4);
+    max-width: 80%; /* Adjust as needed for the space below the navbar */
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 50px;
+  }
+  
+  .balance-section {
+    text-align: center;
+    margin-top: 20px;
+    color: white; 
+  }
+  
+  .current-balance {
+    font-size: 50px;
+    font-weight: bold;
+    color: #8860D0;
+  }
+  
+  .balance-amount {
+    font-size: 30px;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .total-income {
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: purple;
+  }
+  
+  .income-sources {
+    background-color: rgba(228, 125, 236, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    border:1px solid black;
+  }
+  
+  .income-sources h2 {
+    font-size: 24px;
+    color: purple;
+  }
+  
+  .income-sources ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .income-sources li {
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+
+  .income-sources li:hover{
+    color: black;
+  }
+  
+  .icons-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .icons-section .icon {
+    position: relative;
+    text-align: center;
+    margin: 0 70px; /* Adjust the margin as needed for spacing between icons */
+  }
+  
+  .icons-section  img {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    margin-top: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .icons-section img:hover {
+    transform: scale(1.5);
+    color: white;
+  }

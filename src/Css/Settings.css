@@ -1,0 +1,88 @@
+/* SettingsPage.css */
+
+.settings-container {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    max-width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    /* margin-left: 20vw; */
+}
+
+
+.settings-box {
+    background-color: rgba(221, 221, 255, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+
+.settings-box .box-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.lastS {
+    margin-bottom: 00px;
+}
+
+.settings-box h2 {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.settings-box img {
+    height: 50px;
+    width: 50px;
+}
+
+.sub-features {
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+.sub-feature {
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+
+}
+
+.sub-feature img {
+    margin-right: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.sub-feature:hover {
+    background-color: #099dd3;
+}
+
+.sub-feature:hover p{
+    color: white;
+}
+
+
+@media (max-width:1000px) {
+    .settings-containe {
+        flex-direction: column;
+    }
+}

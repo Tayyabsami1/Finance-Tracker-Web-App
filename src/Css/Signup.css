@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.SignUp .start-line {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.SignUp .start-line h3 {
+    font-weight: 300;
+    color: #581f91;
+    font-weight: bolder;
+    letter-spacing: 0.05rem;
+    
+}
+
+.SignUp {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url(../Assets/SignUp_Bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.SignUp .wrapper {
+    width: 420px;
+    background: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter: blur(20px);
+}
+
+.SignUp .wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+.SignUp .wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.SignUp .input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.SignUp .input-box input::placeholder {
+    color: white;
+}
+
+.SignUp .input-box img {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.SignUp .wrapper .already-account-login {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+
+.SignUp .already-account-login label input {
+    accent-color: white;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.SignUp .already-account-login .hoverLabel1 .mylog  {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-out;
+    transition: 0.3s all;
+    margin-left: 6px;
+}
+
+.SignUp .already-account-login .hoverLabel1 .mylog:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.683);
+}
+
+.SignUp .wrapper .btn {
+    width: 100%;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.SignUp .wrapper .btn:hover {
+    background-color: rgb(173, 89, 211);
+}
+
+.SignUp .wrapper .register-link {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px 0 15px;
+}
+
+.SignUp .register-link label  {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.SignUp .register-link label:hover {
+    text-decoration: underline;
+}
